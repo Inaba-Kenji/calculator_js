@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./JS応用課題④.css">
+  <title>JS応用課題④</title>
+</head>
+<body>
+  <form name="myForm">
+    <table border="1">
+      <tr>
+        <td colspan="4" align="center"><input class= "display" type="text" size="20" name="myLine" value="0"></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center"><input type="button" value="clear" onclick="ac()"></td>
+        <td class="td-empty"></td>
+        <td align="center"><input type="button" value=" ＋ " onclick="calculate('+')"></td>
+      </tr>
+      <tr>
+        <td align="center"><input type="button" value=" １ " onclick="value_push('1')"></td>
+        <td align="center"><input type="button" value=" ２ " onclick="value_push('2')"></td>
+        <td align="center"><input type="button" value=" ３ " onclick="value_push('3')"></td>
+        <td align="center"><input type="button" value=" － " onclick="calculate('-')"></td>
+      </tr>
+      <tr>
+        <td align="center"><input type="button" value=" ４ " onclick="value_push('4')"></td>
+        <td align="center"><input type="button" value=" ５ " onclick="value_push('5')"></td>
+        <td align="center"><input type="button" value=" ６ " onclick="value_push('6')"></td>
+        <td align="center"><input type="button" value=" × " onclick="calculate('*')"></td>
+      </tr>
+      <tr>
+        <td align="center"><input type="button" value=" ７ " onclick="value_push('7')"></td>
+        <td align="center"><input type="button" value=" ８ " onclick="value_push('8')"></td>
+        <td align="center"><input type="button" value=" ９ " onclick="value_push('9')"></td>
+        <td align="center"><input type="button" value=" ÷ " onclick="calculate('/')"></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center"><input type="button" value=" ０ " onclick="value_push(0)"></td>
+        <td align="center"><input type="button" value="00" onclick="value_push('00')"></td>
+        <td align="center"><input type="button" value="＝" onclick="calculate('=')"></td>
+      </tr>
+    </table>
+  </form>
+  <script src="./JS応用課題④.js"></script>
+</body>
+</html>

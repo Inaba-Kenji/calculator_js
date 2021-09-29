@@ -1,0 +1,7 @@
+.display {
+  text-align: right;
+}
+
+.td-empty {
+  empty-cells: hide;
+}
